@@ -1,0 +1,67 @@
+Asset Manager (AstMan)
+
+AstMan is a desktop application used for Asset Management.
+
+Login
+
+The user should enter their login credentials to access the software.
+
+
+** Ribbon Bar **
+
+The AstMan ribbon bar has four tabs - Add, Edit, Tasks and Help.
+
+== Add == 
+-> Asset Information 
+	Asset - Add new asset information
+	Asset Type - Add new asset type information
+
+-> Other 
+	User - Add new user information
+	Location - Add new location information
+
+== Edit ==
+-> Asset & Location
+	Asset Type - Edit existing asset type information
+	Asset - Edit existing asset information
+	Location - Edit existing location information	
+
+-> User
+	User Activation - Enable/Disable a user
+	Change Password - change password of any user
+
+== Tasks == 
+-> Asset Operations
+	Refresh Table - Refreshes the log on the main window
+	Remove Asset(s) - Makes the asset inactive (Multiple assets can be selected)
+	Restore Asset(s) - Makes the asset active (Multiple assets can be selected)
+	Export - Generates a .xlsx file which contains asset information
+
+-> Service
+	Add To Service - Puts the selected asset for servicing
+	Service Log - Shows information of assets currently in service
+	Service History - History of all assets whose servicing has been completed
+
+-> Exit Session
+	Log Out - Logs out the current user and displays login screen
+	Quit - Closes the application
+
+== Help ==
+-> Information
+	About - Brief information about the software
+	License - License of the software 
+
+-> How To Use
+	Manual - The document that you are currently reading
+
+
+** Search Bar **
+Search for assets based on Asset Number, Asset Name, and the person to whom the asset is allocated.
+
+
+** Asset Log **
+Complete information of assets
+The table can be filtered on the basis of active, inactive and all assets.
+
+
+Written by Rahul Mac

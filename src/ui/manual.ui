@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>Asset Manager (AstMan)
+
+AstMan is a desktop application used for Asset Management.
+
+Login
+
+The user should enter their login credentials to access the software.
+
+
+** Ribbon Bar **
+
+The AstMan ribbon bar has four tabs - Add, Edit, Tasks and Help.
+
+== Add == 
+-&gt; Asset Information 
+	Asset - Add new asset information
+	Asset Type - Add new asset type information
+
+-&gt; Other 
+	User - Add new user information
+	Location - Add new location information
+
+== Edit ==
+-&gt; Asset &amp; Location
+	Asset Type - Edit existing asset type information
+	Asset - Edit existing asset information
+	Location - Edit existing location information	
+
+-&gt; User
+	User Activation - Enable/Disable a user
+	Change Password - change password of any user
+
+== Tasks == 
+-&gt; Asset Operations
+	Refresh Table - Refreshes the log on the main window
+	Remove Asset(s) - Makes the asset inactive (Multiple assets can be selected)
+	Restore Asset(s) - Makes the asset active (Multiple assets can be selected)
+	Export - Generates a .xlsx file which contains asset information
+
+-&gt; Service
+	Add To Service - Puts the selected asset for servicing
+	Service Log - Shows information of assets currently in service
+	Service History - History of all assets whose servicing has been completed
+
+-&gt; Exit Session
+	Log Out - Logs out the current user and displays login screen
+	Quit - Closes the application
+
+== Help ==
+-&gt; Information
+	About - Brief information about the software
+	License - License of the software 
+
+-&gt; How To Use
+	Manual - The document that you are currently reading
+
+
+** Search Bar **
+Search for assets based on Asset Number, Asset Name, and the person to whom the asset is allocated.
+
+
+** Asset Log **
+Complete information of assets
+The table can be filtered on the basis of active, inactive and all assets.
+
+
+Written by Rahul Mac</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -75,7 +75,7 @@ class window(QtWidgets.QMainWindow):
         self.ribbon.setGeometry(0, 0, width, 141)
         self.search.setGeometry(0, 150, width, 20)
         self.log_table.setGeometry(0, 240, width, height-340)
-        self.setWindowIcon(QtGui.QIcon(r"icon\icon.png"))
+        self.setWindowIcon(QtGui.QIcon(r"icon\icon.ico"))
         self.showMaximized()
 
     def remove_asset(self):
@@ -147,7 +147,7 @@ class window(QtWidgets.QMainWindow):
         self.w.show()
 
     def about(self):
-        text = "Asset Manager Version 1.0\nis an asset management software.\n\nCopyright (C) 2022 Rahul Mac\nunder GNU GPL v3 License"
+        text = "Asset Manager Version 0.1.0\nis an asset management software.\n\nCopyright (C) 2022 Rahul Mac\nunder GNU GPL v3 License"
         QMessageBox().about(self, "About Asset Manager", text)
 
     def lcns(self):

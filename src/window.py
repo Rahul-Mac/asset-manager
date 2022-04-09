@@ -147,7 +147,7 @@ class window(QtWidgets.QMainWindow):
         self.w.show()
 
     def about(self):
-        text = "Asset Manager Version 0.1.0\nis an asset management software.\n\nCopyright (C) 2022 Rahul Mac\nunder GNU GPL v3 License"
+        text = "Asset Manager Version 0.1.1\nis an asset management software.\n\nCopyright (C) 2022 Rahul Mac\nunder GNU GPL v3 License"
         QMessageBox().about(self, "About Asset Manager", text)
 
     def lcns(self):
@@ -303,8 +303,6 @@ class window(QtWidgets.QMainWindow):
                             i = QTableWidgetItem("No")
                     else:
                         i = QTableWidgetItem(str(d))
-                    #i.setFlags(QtCore.Qt.ItemIsEnabled)
-                    #self.log_setSelectionMode(QtGui.QAbstractItemView.ExtendedSelection)
                     self.log_table.setItem(r, c, i)
         except Exception as e:
             QMessageBox.critical(self, "Error", str(e))
@@ -367,8 +365,6 @@ class window(QtWidgets.QMainWindow):
                             i = QTableWidgetItem("No")
                     else:
                         i = QTableWidgetItem(str(d))
-                    #i.setFlags(QtCore.Qt.ItemIsEnabled)
-                    #self.log_setSelectionMode(QtGui.QAbstractItemView.ExtendedSelection)
                     self.log_table.setItem(r, c, i)
         except Exception as e:
             QMessageBox.critical(self, "Error", str(e))

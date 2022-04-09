@@ -3,8 +3,19 @@ Asset Manager is a desktop application used for Asset Management.
 # Setup
 Perform the following steps to run the application:
 * Download the source code
-* Execute all the queries in the sql file
-* Go to "src" folder and run main.py
+* Install the dependencies
+  ```
+    pip install PyQt5
+    pip install pandas
+    pip install mysql-connector-python
+  ```
+* Create a database named `asset`
+* Execute all the queries in the [sql file](https://github.com/Rahul-Mac/asset-manager/blob/main/db_file.sql)
+* Replace all occurences of `GMIT.LHDOMAIN.LOCAL` to the name of your MySQL host in the source code files.
+* Run
+  ```
+    python main.py
+  ```
 # Login
 ![Screenshot](src/screenshots/login.png)
 <br><br>
